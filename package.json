@@ -1,11 +1,21 @@
 {
   "name": "@blowstack/ckeditor-nuxt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "author": {
     "name": "BlowStack",
     "email": "piotr.golon@gmail.com"
   },
+  "keywords": [
+    "ckeditor5 nuxt",
+    "ckeditor 5 nuxt",
+    "ckeditor nuxt",
+    "rich text editor nuxt",
+    "wysiwyg nuxt",
+    "wysiwyg vue",
+    "ckeditor plugins nuxt",
+    "ckeditor plugins vue"
+  ],
   "license": "MIT",
   "main": "./dist/ckeditorNuxt.common.js",
   "scripts": {
