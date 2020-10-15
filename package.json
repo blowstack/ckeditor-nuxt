@@ -25,7 +25,7 @@
     "build-bundle": "vue-cli-service build --target lib --name ckeditorNuxt ./src/components/index.js"
   },
   "dependencies": {
-    "@blowstack/ckeditor5-full-free-build": "^20.0.0",
+    "@blowstack/ckeditor5-full-free-build": "^23.0.0",
     "@ckeditor/ckeditor5-vue": "^1.0.3"
   },
   "devDependencies": {
