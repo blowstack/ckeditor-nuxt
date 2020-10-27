@@ -45,7 +45,6 @@ yarn add @blowstack/ckeditor-nuxt # OR npm install --save @blowstack/ckeditor-nu
 * MathType,
 * MediaEmbed,
 * PageBreak,
-* Pagination,
 * Paragraph,
 * PasteFromOffice,
 * RemoveFormat,
