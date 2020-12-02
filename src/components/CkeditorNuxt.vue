@@ -11,7 +11,7 @@
 <script>
 
     import FullFreeBuildEditor from '@blowstack/ckeditor5-full-free-build'
-    import CKEditor from '@ckeditor/ckeditor5-vue'
+    import CKEditor from '@ckeditor/ckeditor5-vue2'
 
     export default {
         components: {
