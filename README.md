@@ -3,12 +3,14 @@ CKEditor 5 editor for nuxt apps. The component includes all free available plugi
 
 ## Requirements
 ```
-yarn add nuxt # OR npm i nuxt
+yarn add nuxt
+npm i nuxt
 ```
 
 ## Component integration
 ```
-yarn add @blowstack/ckeditor-nuxt # OR npm install --save @blowstack/ckeditor-nuxt
+yarn add @blowstack/ckeditor-nuxt
+npm install --save @blowstack/ckeditor-nuxt
 ```
 
 ## List of included plugins
@@ -97,7 +99,29 @@ export default {
   }
 }
 </script>
+```
+## Customization
 
+To make customization use editorConfig object.
+It works the same way as the default ckeditor 5.
+More info at https://ckeditor.com/docs/ckeditor5/latest/api/module_core_editor_editorconfig-EditorConfig.html
+
+For example if you want to disable Title plugin:
 
 ```
 
+editorConfig: {
+    removePlugins: ['Title'],
+}
+```
+
+You can also change the behaviour of any plugin. For the Title plugin you can change for example the placeholder:
+
+```
+
+editorConfig: {
+    title: {
+        placeholder: 'h1'
+    }
+}
+```
