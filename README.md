@@ -82,7 +82,7 @@ npm install --save @blowstack/ckeditor-nuxt
 <script>
 export default {
   components: {
-    'ckeditor-nuxt': () => import('@blowstack/ckeditor-nuxt')
+    'ckeditor-nuxt': () => { if (process.client) { return import('@blowstack/ckeditor-nuxt') } },
   },
   data() {
     return {
