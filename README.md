@@ -15,11 +15,12 @@ npm install --save @blowstack/ckeditor-nuxt
 
 ## List of included plugins
 * Alignment,
+* AutoImage,
 * Autoformat,
 * Autolink,
-* Autosave,
 * BlockQuote,
 * Bold,
+* CloudServices,
 * Code,
 * CodeBlock,
 * Essentials,
@@ -41,11 +42,12 @@ npm install --save @blowstack/ckeditor-nuxt
 * IndentBlock,
 * Italic,
 * Link,
+* LinkImage,
 * List,
 * ListStyle,
-* Markdown,
 * MathType,
 * MediaEmbed,
+* MediaEmbedToolbar,
 * PageBreak,
 * Paragraph,
 * PasteFromOffice,
@@ -69,7 +71,7 @@ npm install --save @blowstack/ckeditor-nuxt
 * Title,
 * TodoList,
 * Underline,
-* WordCount,
+* WordCount
 
 ## Usage
 ```
